@@ -38,7 +38,7 @@ function App() {
 
   useEffect(() => {
     if (authUser) {
-      const socket = io(`http://localhost:8000`, {
+      const socket = io("https://new-m6ou.onrender.com", {
         query: { userId: authUser._id },
       });
       dispatch(setsocket(socket));
