@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;}
+
+body{
+  background-image:url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;}
+     
+  .scroll-container {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+.scroll-container {
+  scrollbar-width: thin; 
+    scrollbar-color: aliceblue black; 
+}
+
+
+
+
