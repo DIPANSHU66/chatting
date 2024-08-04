@@ -17,11 +17,12 @@ const Login = () => {
   const onsubmithandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(`http://localhost:8000/api/v1/login`, user, {
+      const res = await axios.post("https://new-m6ou.onrender.com/api/v1/login", user, {
         headers: { "Content-Type": "application/json" },
         withCredentials: true,
       });
       navigate("/homepage");
+
       dispatch(setAuthUser(res.data));
     } catch (error) {
       toast.error(error.response.data.message);

@@ -23,7 +23,9 @@ const Sidebar = () => {
 
   const logouthandler = async () => {
     try {
-      const res = await axios.get(`http://localhost:8000/api/v1/logout`);
+      const res = await axios.get(
+        "https://new-m6ou.onrender.com/api/v1/logout"
+      );
       console.log(res);
       navigate("/profile");
       toast.success(res.data.message);

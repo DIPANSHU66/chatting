@@ -9,7 +9,7 @@ const useGetOtherUsers = () => {
     const fetchotherUsers = async () => {
       try {
         axios.defaults.withCredentials = true;
-        const res = await axios.get(`http://localhost:8000/api/v1/`);
+        const res = await axios.get("https://new-m6ou.onrender.com/api/v1/");
         dispatch(setotherusers(res.data));
       } catch (e) {
         console.log(e);

@@ -25,7 +25,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `http://localhost:8000/api/v1/register`,
+        "https://new-m6ou.onrender.com/api/v1/register",
         user,
         {
           headers: {

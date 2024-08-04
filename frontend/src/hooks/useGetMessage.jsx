@@ -11,7 +11,7 @@ const useGetMessage = async () => {
       try {
         axios.defaults.withCredentials = true;
         const res = await axios.get(
-          `http://localhost:8000/api/v1/message/${selectedUser?._id}`
+          `https://new-m6ou.onrender.com/api/v1/message/${selectedUser?._id}`
         );
         dispatch(setMessages(res.data));
       } catch (e) {
