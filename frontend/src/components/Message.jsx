@@ -21,6 +21,7 @@ const Message = (props) => {
 
   const deletehandler = async (e) => {
     e.preventDefault();
+    if(  authUser?._id != message?.senderId)return ;
     try {
       const res = await axios.post(
         "https://new-m6ou.onrender.com/api/v1/message/delete",
