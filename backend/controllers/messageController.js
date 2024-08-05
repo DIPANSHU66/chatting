@@ -53,5 +53,50 @@ const getMessage = async (req, res) => {
     console.log(e);
   }
 };
+const deleteMessage = async (req, res) => {
+  try {
+    const { reciverId, senderId, _id: messageId } = req.body; // Assuming these are sent in the request body
 
-module.exports = { sendMessage, getMessage };
+    if (!reciverId || !senderId || !messageId) {
+      return res
+        .status(400)
+        .json({ message: "Missing required parameters", success: false });
+    }
+
+    const conversation = await Conversation.findOne({
+      participants: { $all: [senderId, reciverId] },
+    });
+
+    if (!conversation) {
+      return res
+        .status(404)
+        .json({ message: "Conversation not found", success: false });
+    }
+
+    const messageIndex = conversation.messages.findIndex(
+      (msg) => msg._id.toString() === messageId
+    );
+
+    if (messageIndex === -1) {
+      return res
+        .status(404)
+        .json({ message: "Message not found", success: false });
+    }
+
+    conversation.messages.splice(messageIndex, 1);
+
+    await conversation.save();
+
+    return res
+      .status(200)
+      .json({ message: "Message deleted successfully", success: true });
+  } catch (e) {
+    console.error(e);
+    return res
+      .status(500)
+      .json({ message: "Internal server error", success: false });
+  }
+};
+
+
+module.exports = { sendMessage, getMessage,deleteMessage };
