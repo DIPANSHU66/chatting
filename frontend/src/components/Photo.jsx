@@ -34,7 +34,7 @@ const Photo = () => {
         />
         <button
           onClick={() => imageRef.current.click()}
-          className="w-fit mx-auto bg-[#0095F6] hover:bg-[#258bcf]"
+          className="w-fit rounded-md border text-center bg-[#0095F6] hover:bg-[#258bcf]"
         >
           Select from Device
         </button>
