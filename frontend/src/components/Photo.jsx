@@ -1,22 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-
 import { useNavigate } from "react-router-dom";
-import { setimage } from "../redux/userSlice";
 
 const Photo = () => {
   const dispatch = useDispatch();
-
-  const [photoUrl, setPhotoUrl] = useState("");
   const navigate = useNavigate();
-
+  const imageRef = useRef();
+  const [photourl, setPhotourl] = useState("");
+  const filechangehandler = (e) => {
+    const file = e.target.files?.[0];
+    const objectURL = URL.createObjectURL(file);
+    if (objectURL) setPhotourl(objectURL);
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(setimage(photoUrl));
+    dispatch(setPhotourl(photourl));
     navigate("/register");
-    setPhotoUrl("");
+    setfile("");
   };
+
   return (
     <div className="w-full max-w-sm p-6 mx-auto bg-gray-400 shadow-md rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100">
       <h2 className="text-xl font-semibold mb-4 text-center">
@@ -24,13 +27,17 @@ const Photo = () => {
       </h2>
       <form onSubmit={handleSubmit}>
         <input
-          type="text"
-          value={photoUrl}
-          onChange={(e) => setPhotoUrl(e.target.value)}
-          placeholder="Enter profile photo URL"
-          className="w-full p-2 mb-4 rounded-md border border-gray-300"
+          type="file"
+          ref={imageRef}
+          className="hidden"
+          onChange={filechangehandler}
         />
-
+        <button
+          onClick={() => imageRef.current.click()}
+          className="w-fit mx-auto bg-[#0095F6] hover:bg-[#258bcf]"
+        >
+          Select from Device
+        </button>
         <button
           type="submit"
           className="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600"
