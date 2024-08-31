@@ -5,7 +5,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dipanshu66&label=Profile%20views&color=0e75b6&style=flat" alt="dipanshu66" /> </p>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
--🔭 my Project Link   [https://chatmate-backend.onrender.com/](https://chatmate-backend.onrender.com/)
+-🔭 my Project Link   https://chatmate-backend.onrender.com/
 - 🌱 I’m currently learning **react+vite**
 
 - 👨‍💻 All of my projects are available at [https://port-folio-neon.vercel.app/](https://port-folio-neon.vercel.app/)
