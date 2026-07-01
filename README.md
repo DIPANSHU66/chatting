@@ -1,34 +1,121 @@
-![Masthead Image](https://previews.123rf.com/images/karpenkoilia/karpenkoilia1806/karpenkoilia180600011/102988806-vector-line-web-concept-for-programming-linear-web-banner-for-coding-.jpg)
-<h1 align="center">Hi 👋, I'm Dipanshu Bansal</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
-<img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dipanshu66&label=Profile%20views&color=0e75b6&style=flat" alt="dipanshu66" /> </p>
+# 💬 ChatMate - Real-Time Instant Messaging Application
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
--🔭 my Project Link   https://chatmate-backend.onrender.com/
-- 🌱 I’m currently learning **react+vite**
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)](https://socket.io/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-- 👨‍💻 All of my projects are available at [https://port-folio-neon.vercel.app/](https://port-folio-neon.vercel.app/)
+A modern, full-stack real-time chat application built with the MERN stack and Socket.io. ChatMate offers instant one-on-one direct messaging, dynamic online/offline presence states, and responsive mobile-first layouts.
 
-- 💬 Ask me about **Android,Mearn**
+---
 
-- 📫 How to reach me **dipanshu6bansal@gmail.com**
+## 🔗 Live Link
+- **Live Demo**: [chatmate-backend.onrender.com](https://chatmate-backend.onrender.com/)
 
-- ⚡ Fun fact **I am funny**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/dipanshu-bansal-554a50306/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/dipanshu-bansal-554a50306/" height="30" width="40" /></a>
-<a href="https://instagram.com/dipanshubansal_/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/dipanshubansal_/" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/u/dipanshu682004/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/dipanshu682004/" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/dipanshum397/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="https://www.geeksforgeeks.org/user/dipanshum397/" height="30" width="40" /></a>
-</p>
+## 🖥️ Application Preview
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+![ChatMate Application Preview](screenshots/mockup.png)
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dipanshu66&show_icons=true&locale=en&layout=compact" alt="dipanshu66" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dipanshu66&show_icons=true&locale=en" alt="dipanshu66" /></p>
+## 🌟 Key Features
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dipanshu66&" alt="dipanshu66" /></p>
+- **⚡ Instant Real-Time Messaging**:
+  - Exchange messages instantly using bi-directional WebSocket channels powered by **Socket.io**.
+- **🟢 Presence Tracking**:
+  - Live indicator system tracking user online/offline status updates reactively.
+- **✍️ Typing Status Indicators**:
+  - Real-time "Typing..." notification triggers displayed when users draft messages.
+- **📂 Persistent Message Store**:
+  - Secure conversations database schema storage using **MongoDB** & **Mongoose**, allowing chats to load reliably.
+- **🔒 Secure JWT Authentication**:
+  - Session verification using JSON Web Tokens (JWT) saved inside protected HttpOnly cookies.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Framework**: React.js & Vite
+- **Styling**: Tailwind CSS & Lucide React
+- **State Management**: Redux Toolkit & Context API
+
+### Backend
+- **Runtime**: Node.js & Express.js
+- **Database**: MongoDB & Mongoose
+- **Websockets**: Socket.io (for bi-directional real-time communication)
+- **Security**: bcryptjs (password encryption), JWT token-based verification
+
+---
+
+## 📁 Project Structure
+
+```text
+chatting/
+├── backend/              # Express API and Socket.io server
+│   ├── models/           # Mongoose Schemas (User, Message, Conversation)
+│   ├── routes/           # REST endpoint routing
+│   └── index.js          # Express app mount & Socket listener setup
+└── frontend/             # React Client App
+    └── src/              # Pages, Chat panels, hooks, and context slices
+```
+
+---
+
+## 🚀 Local Installation & Setup
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed
+- [MongoDB](https://www.mongodb.com/) account/database running (local or cloud)
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/DIPANSHU66/chatting.git
+cd chatting
+```
+
+### Step 2: Configure & Start Backend
+1. Navigate to the `backend` folder and install dependencies:
+   ```bash
+   cd backend
+   npm install
+   ```
+2. Create a `.env` file in the `backend/` directory:
+   ```env
+   PORT=8000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET_KEY=your_jwt_secret_key
+   FRONTEND_URL=http://localhost:5173
+   ```
+3. Start the backend development server:
+   ```bash
+   npm run dev
+   ```
+
+### Step 3: Configure & Start Frontend
+1. Navigate to the `frontend` folder and install dependencies:
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+2. Create a `.env` file in the `frontend/` directory:
+   ```env
+   VITE_API_URL=http://localhost:8000/api/v1
+   ```
+3. Start the frontend development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 🛡️ License & Contributions
+This project is open-source. Contributions, issues, and feature requests are welcome!
+
+---
+
+*Made with ❤️ by [Dipanshu Bansal](https://github.com/DIPANSHU66)*
